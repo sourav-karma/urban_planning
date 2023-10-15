@@ -1,0 +1,29 @@
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = HubDist ~ GROUP, data = services)
+
+$GROUP
+                                 diff         lwr         upr     p adj
+Education-Commercial       -46.876172 -110.401938   16.649595 0.3042127
+Health care-Commercial    -116.232101 -179.757867  -52.706334 0.0000023
+Personal care-Commercial   -66.420429 -129.946196   -2.894663 0.0337998
+Recreation-Commercial     -176.467303 -239.993069 -112.941537 0.0000000
+shopping-Commercial        -53.852187 -117.377953    9.673580 0.1572885
+Transport-Commercial      -166.081876 -229.607643 -102.556110 0.0000000
+Health care-Education      -69.355929 -132.881695   -5.830163 0.0222378
+Personal care-Education    -19.544258  -83.070024   43.981509 0.9703987
+Recreation-Education      -129.591131 -193.116898  -66.065365 0.0000001
+shopping-Education          -6.976015  -70.501781   56.549752 0.9999031
+Transport-Education       -119.205704 -182.731471  -55.679938 0.0000011
+Personal care-Health care   49.811671  -13.714095  113.337438 0.2346275
+Recreation-Health care     -60.235202 -123.760969    3.290564 0.0759896
+shopping-Health care        62.379914   -1.145852  125.905680 0.0580343
+Transport-Health care      -49.849776 -113.375542   13.675991 0.2337975
+Recreation-Personal care  -110.046874 -173.572640  -46.521107 0.0000098
+shopping-Personal care      12.568243  -50.957523   76.094009 0.9971566
+Transport-Personal care    -99.661447 -163.187213  -36.135681 0.0000958
+shopping-Recreation        122.615117   59.089350  186.140883 0.0000005
+Transport-Recreation        10.385427  -53.140340   73.911193 0.9990291
+Transport-shopping        -112.229690 -175.755456  -48.703923 0.0000059
+
